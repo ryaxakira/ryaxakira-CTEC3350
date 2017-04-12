@@ -1,3 +1,5 @@
+/*BEM CSS*/
+
 body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
@@ -12,14 +14,15 @@ body{
   overflow:hidden;
 }
 
-ul{
+ul, li, h2, h1, h3 {
   margin:0;
   padding:0;
+  color: #fff
 }
 
 .button_1{
   height:38px;
-  background:#fff;
+  background:#333;
   border:0;
   padding-left: 20px;
   padding-right:20px;
@@ -36,11 +39,11 @@ ul{
 
 /* Header **/
 header{
-  background:#333;
+  background:333;
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#333 3px solid;
+  border-bottom:#A52A2A 3px solid;
 }
 
 header a{
@@ -79,12 +82,6 @@ header a:hover{
   font-weight:bold;
 }
 
-.img
-{
-    float: left;
-    
-}
-
 /* Showcase */
 #showcase{
   min-height:400px;
@@ -107,7 +104,7 @@ header a:hover{
 #newsletter{
   padding:15px;
   color:#ffffff;
-  background:#35424a
+  background:#A52A2A
 }
 
 #newsletter h1{
@@ -159,12 +156,20 @@ article#main-col{
   width:65%;
 }
 
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#333;
+}
 
 footer{
   padding:20px;
   margin-top:20px;
   color:#ffffff;
-  background-color:#333;
+  background-color:#A52A2A;
   text-align: center;
 }
 
